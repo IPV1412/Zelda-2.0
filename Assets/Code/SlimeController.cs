@@ -18,13 +18,12 @@ public class SlimeController : MonoBehaviour
     public float timeToMakeStep;
     private float timeToMakeStepCounter;
 
-    private bool movingRight = true; // Controla la dirección de movimiento
-
     // Start is called before the first frame update
     void Start()
     {
         _rigidbody = GetComponent<Rigidbody2D>();
-        directionToMove = Vector2.right; // Inicia moviéndose hacia la derecha
+        timeBetweenStepsCounter = timeBetweenSteps;
+        timeToMakeStepCounter = timeToMakeStep;
     }
 
     // Update is called once per frame
@@ -49,8 +48,8 @@ public class SlimeController : MonoBehaviour
                 isMoving = true;
                 timeToMakeStepCounter = timeToMakeStep;
 
-                // Cambia la dirección de movimiento
-                if (movingRight)
+                // Cambia la dirección de movimiento de manera aleatoria
+                if (Random.Range(0, 2) == 0)
                 {
                     directionToMove = Vector2.right;
                 }
@@ -58,9 +57,6 @@ public class SlimeController : MonoBehaviour
                 {
                     directionToMove = Vector2.left;
                 }
-
-                // Alterna la dirección
-                movingRight = !movingRight;
             }
         }
     }
