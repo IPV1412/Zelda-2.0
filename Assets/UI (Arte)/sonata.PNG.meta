@@ -156,7 +156,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      sonata_0: 4680483502266727277
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
