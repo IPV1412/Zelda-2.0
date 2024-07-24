@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - Vida
+  - Boss
+  - Trupper
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 960746511
+    locked: 0
+  - name: Foreground1
+    uniqueID: 313564491
+    locked: 0
+  - name: Foreground2
+    uniqueID: 2799275025
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Main Ground
+    uniqueID: 3035846875
+    locked: 0
