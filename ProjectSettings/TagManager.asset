@@ -8,6 +8,7 @@ TagManager:
   - Vida
   - Boss
   - Trupper
+  - Esmeralda
   layers:
   - Default
   - TransparentFX
