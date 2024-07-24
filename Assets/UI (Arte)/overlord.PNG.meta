@@ -156,7 +156,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      overlord_0: 7237450857771537706
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
